@@ -1,0 +1,231 @@
+.smile {
+    @include size(80vh);
+    margin: 10vh auto;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+
+
+    &__box {
+        @include size(100%);
+
+        &--black {
+            background-color: #111;
+        }
+
+        &--yellow {
+            background-color: #f7ff00;
+        }
+
+        &--1 {
+            @include grid(1, auto, 6, 11);
+        }
+
+        &--2 {
+            @include grid(2, auto, 4, 6);
+        }
+
+        &--3 {
+            @include grid(2, auto, 6, 11);
+        }
+
+        &--4 {
+            @include grid(2, auto, 11, 13);
+        }
+
+        &--5{
+            @include grid(3, auto, 3, auto);
+        }
+
+        &--6{
+            @include grid(3, auto, 4, 13);
+        }
+        &--7{
+            @include grid(3, auto, 13, auto);
+        }
+
+        &--8{
+            @include grid(4, 6, 2, auto);
+        }
+
+        &--9{
+            @include grid(4, 6, 3, 14);
+        }
+        &--10{
+            @include grid(4, 6, 14, auto);
+        }
+
+        &--11{
+            @include grid(6, 11, 1, auto);
+        }
+
+        &--12{
+            @include grid(6, auto, 1, 16);
+        }
+
+        &--13{
+            @include grid(6, 11, 15, auto);
+        }
+
+
+
+        &--14{
+            @include grid(7, 11, 2, auto);
+        }
+        &--15{
+            @include grid(7, auto, 3, 5);
+        }
+        &--16{
+            @include grid(7, auto, 5, 7);
+        }
+        &--17{
+            @include grid(7, auto, 7, 11);
+        }
+        &--18{
+            @include grid(7, auto, 11, 13);
+        }
+        &--19{
+            @include grid(7, 11, 14, auto);
+        }
+        &--20{
+            @include grid(6, 11, 15, auto);
+        }
+
+
+        &--21{
+            @include grid(8, auto, 3, 6);
+        }
+
+        &--22{
+            @include grid(8, auto, 6, auto);
+        }
+
+        &--23{
+            @include grid(8, auto, 7, auto);
+        }
+
+        &--24{
+            @include grid(8, 13, 8, auto);
+        }
+
+        &--25{
+            @include grid(8, auto, 9, 12);
+        }
+
+        &--26{
+            @include grid(8, auto, 12, auto);
+        }
+
+        &--27{
+            @include grid(7, 9, 13, auto);
+        }
+
+
+        &--28{
+            @include grid(9, 13, 3, auto);
+        }
+
+        &--29{
+            @include grid(9, auto, 4, 7);
+        }
+
+        &--30{
+            @include grid(9, 13, 7, 10);
+        }
+
+        &--31{
+            @include grid(9, auto, 10, 13);
+        }
+
+        &--32{
+            @include grid(9, 13, 13, auto);
+        }
+
+        &--33{
+            @include grid(10,11 , 3, 14);
+        }
+
+        &--34{
+            @include grid(11, 13, 2, auto);
+        }
+
+        &--35{
+            @include grid(9, 13, 7, 10);
+        }
+
+        &--36{
+            @include grid(11, 13, 14, auto);
+        }
+
+        &--37{
+            @include grid(9, 13, 13, auto);
+        }
+
+        &--38{
+            @include grid(9, 13, 3, auto);
+        }
+
+
+        &--39{
+            @include grid(11, auto, 3, 14);
+        }
+
+        &--40{
+            @include grid(12, auto, 3, 6);
+        }
+
+        &--41{
+            @include grid(12, auto, 11, 14);
+        }
+
+        &--42{
+            @include grid(13, auto, 3, auto);
+        }
+
+        &--43{
+            @include grid(14, auto, 4, 6);
+        }
+
+        &--44{
+            @include grid(15, auto, 6, 11);
+        }
+
+        &--45{
+            @include grid(14, auto, 11, 13);
+        }
+
+        &--46{
+            @include grid(13, auto, 13, auto);
+        }
+
+        &--47{
+            @include grid(14, auto, 6, 11);
+        }
+
+        &--48{
+            @include grid(13, auto, 4, 7);
+        }
+
+        &--49{
+            @include grid(13, auto, 7, 10);
+        }
+
+        &--50{
+            @include grid(13, auto, 10, 13);
+        }
+
+        &--51{
+            @include grid(12, auto, 6, auto);
+        }
+
+        &--52{
+            @include grid(12, auto, 10, auto);
+        }
+
+
+
+        
+        
+    }
+
+}
